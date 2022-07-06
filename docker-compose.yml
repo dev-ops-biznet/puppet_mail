@@ -3,6 +3,6 @@ version: '3.8'
 services:
   puppet_mail:
     build: .
-    image: bzprodev/puppet_mail:v1
+    image: bzprodev/puppet_mail:v2
     volumes:
       - ./node:/var/www/node
